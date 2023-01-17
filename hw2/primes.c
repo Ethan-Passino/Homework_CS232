@@ -47,7 +47,7 @@ int main(int argc, const char** argv){
         /* TODO: fill in the code that outputs the prime numbers */
         /*   in the range [lowerBound,upperBound] in ascending order */
         // See above main function to see my isPrime code.
-        if(isPrime(i)) {
+        if(isPrime(i)) { 
             printf("%d\n", i);
         }
 

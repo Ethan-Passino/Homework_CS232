@@ -300,6 +300,12 @@ short won(void)
     for(int r = 0; r < d; r++) {
         for(int c = 0; c < d; c++) {
             if(counter > ((d*d) - 1)) {
+                // This is here so it doesn't check for a tile that doesn't exist. 
+                /*
+                For example if this was a 4x4 board, if we didn't have this it would try to check tile 16
+                which doesn't exist and therefore the result would return 0 (false) instead of 1 (true)
+                and be incorrect.
+                */
                 break;
             }
             if(counter != board[r][c]) {

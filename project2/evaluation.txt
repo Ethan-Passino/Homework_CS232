@@ -1,0 +1,9 @@
+Carter: Helped a lot with debugging the code when it wasn't working to figure out why it was not working (this was a lot of the work in general)
+wrote a few of the functions in our code specifically, freeTrieMemory and addWordOccurence, helped some with the main function, and made the setupNode function.
+
+Spent around 3-4 hours working on the project.
+
+Ethan: Helped with debugging a lot (most of the work in general)
+helped write the main function, made the addWordProcess, indexPage function, removeSpaces function
+
+Spent Around 4-5 hours working on the project.
